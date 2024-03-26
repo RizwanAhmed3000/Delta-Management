@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../style";
 import { Footer, Navbar } from "../components";
-import {Contact} from "../components";
+import {Contact ,  ContactHead} from "../components";
 
 const ContactPage = () => {
   return (
@@ -12,9 +12,10 @@ const ContactPage = () => {
         </div>
       </div>
       <div
-        className={`bg-primary text-white ${styles.paddingX} ${styles.flexCenter}`}
+      // ${styles.flexCenter}`
+        className={`bg-primary text-white ${styles.paddingX} `}
       >
-       {/* <h1 className="text-white">Contact Us</h1> */}
+      <ContactHead />
         <Contact />
       </div>
 

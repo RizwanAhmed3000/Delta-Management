@@ -41,7 +41,7 @@ function Contact() {
           {/* <h1 className="text-white text-5xl ">Contact Us</h1> */}
           <div className="overflow-hidden lg:px-[120px] ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px]">
-              <div className="p-6 mr-2 bg-primary sm:rounded-lg ">
+              <div className="px-[6rem] mr-2 bg-primary sm:rounded-lg ">
                 <div>
                   <h1 className="text-3xl sm:text-4xl  font-extrabold tracking-tight">
                     Technical Support
