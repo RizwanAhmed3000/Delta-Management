@@ -6,18 +6,18 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 
 const App = () => (
-  
+
   <>
-  <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/about' element={<AboutPage />} />
         <Route path='/contact' element={<ContactPage />} />
       </Routes>
     </BrowserRouter>
-  
 
-  
+
+
   </>
 );
 

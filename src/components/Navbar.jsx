@@ -27,7 +27,7 @@ const Navbar = () => {
                   ? "/contact"
                   : nav.id === "about"
                   ? "/about"
-                  : `#${nav.id} `
+                  : `/#${nav.id} `
               }
             >
               {nav.title}
