@@ -1,8 +1,9 @@
 import React from "react";
-import { ContactHead, Footer, Navbar,AboutCard } from "../components";
+import { ContactHead, Footer, Navbar, AboutCard, ExtraCard } from "../components";
 import styles from "../style";
 import { data } from "../constants/index";
-
+import { imageData } from "../constants/index";
+// console.log(imageData);
 const AboutPage = () => {
   console.log(data);
   return (
@@ -22,8 +23,15 @@ const AboutPage = () => {
             Strategists, Content Writers, and Project Managers, we collaborate on a result-oriented design process."
             heading="Empowering the world to design"
           />
-          <AboutCard />
+          <div className="flex flex-wrap">
+            {imageData.map((data) => (
+              <AboutCard data={data} key={data?.id} />
+            ))}
+          </div>
         </div>
+        {data.map((data) => (
+          <ExtraCard data={data} key={data?.id}/>
+        ))}
 
         <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>

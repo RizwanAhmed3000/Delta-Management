@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Billing from "./Billing";
 import CardDeal from "./CardDeal";
 import Business from "./Business";
-// import Services from "./Services";
+import ExtraCard from "./ExtraCard";
 import CTA from "./CTA";
 import Stats from "./Stats";
 import Footer from "./Footer";
@@ -18,6 +18,7 @@ export {
   CardDeal,
   Business,
   AboutCard,
+  ExtraCard,
   // Services,
   CTA,
   Stats,
