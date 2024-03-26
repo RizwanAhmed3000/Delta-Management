@@ -11,9 +11,9 @@ import Hero from "./Hero";
 import Contact from "./Contact";
 import ContactHead from "./ContactHead";
 import AboutCard from "./AboutCard";
-import OurTeam from './OurTeam'
+import ServicesCarousel from "./ServicesCarousel";
+import OurTeam from "./OurTeam";
 export {
-  
   Navbar,
   Billing,
   CardDeal,
@@ -21,7 +21,7 @@ export {
   AboutCard,
   ExtraCard,
   OurTeam,
-  // Services,
+  ServicesCarousel,
   CTA,
   Stats,
   Footer,

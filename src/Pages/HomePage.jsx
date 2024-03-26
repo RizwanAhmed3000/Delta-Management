@@ -4,10 +4,10 @@ import {
   Business,
   CTA,
   CardDeal,
-  // Services,
   Footer,
   Hero,
   Navbar,
+  ServicesCarousel,
   Stats,
   Testimonials,
 } from "../components";
@@ -33,9 +33,9 @@ const HomePage = () => {
           <Stats />
           <Business />
           <Billing />
+          <ServicesCarousel />
           <CardDeal />
           <Testimonials />
-          {/* <Services /> */}
           <CTA />
           <Footer />
         </div>
