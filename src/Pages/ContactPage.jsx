@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../style";
 import { Footer, Navbar } from "../components";
 import {Contact ,  ContactHead} from "../components";
+// import
 
 const ContactPage = () => {
   return (

@@ -4,7 +4,7 @@ import {
   Business,
   CTA,
   CardDeal,
-  Clients,
+  // Services,
   Footer,
   Hero,
   Navbar,
@@ -34,7 +34,7 @@ const HomePage = () => {
           <Billing />
           <CardDeal />
           <Testimonials />
-          <Clients />
+          {/* <Services /> */}
           <CTA />
           <Footer />
         </div>

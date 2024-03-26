@@ -1,5 +1,30 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
+export const imageData = [
+  {img: 'https://block.codescandy.com/assets/images/about-img/about-img-1.jpg'},
+  {img: 'https://block.codescandy.com/assets/images/about-img/about-img-2.jpg'},
+  {img: 'https://block.codescandy.com/assets/images/about-img/about-img-3.jpg'},
+]
+export const data = [
+  {id : '0',
+    heading : 'Innovative Solutions for Business Success',
+    content : "At Delta Business Solution, innovation is at the core of everything we do. We specialize in developing cutting-edge solutions that propel businesses forward in today's fast-paced world. Whether it's leveraging AI and automation or implementing the latest technology trends, our innovative approach ensures that our clients stay ahead of the curve and achieve their goals with confidence.",
+    btnContent : 'Explore More'
+  },
+  {
+    id : '1',
+    heading : 'Trusted Partnerships Built on Integrity',
+    content : "Integrity forms the foundation of our relationships with clients. At Delta Business Solution, we prioritize honesty, transparency, and ethical practices in all our dealings. Our clients trust us to deliver results because we are committed to upholding the highest standards of integrity in every aspect of our work. With Delta Business Solution as your partner, you can rest assured that your business's best interests are always our top priority.",
+    btnContent : 'Explore More'
+  },
+  {
+    id : '2',
+    heading : 'Expertise Across Diverse Industries',
+    content : "With a wealth of experience and expertise across various industries, Delta Business Solution brings a unique perspective to every client engagement. Our team comprises professionals with deep domain knowledge, allowing us to understand the specific challenges and opportunities facing different sectors. Whether you're in healthcare, finance, retail, or any other industry, we have the knowledge and skills to tailor solutions that meet your unique needs and drive success.",
+    btnContent : 'Explore More'
+  },
+]
+
 export const navLinks = [
   {
     id: "home",

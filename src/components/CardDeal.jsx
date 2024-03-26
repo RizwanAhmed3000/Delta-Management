@@ -18,7 +18,7 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+      <img src='https://res.cloudinary.com/dpvxkqhi8/image/upload/v1711469945/branding%20hopes/card2_qxymun.png' alt="billing" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );
