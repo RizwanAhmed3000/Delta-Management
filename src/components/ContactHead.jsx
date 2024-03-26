@@ -8,7 +8,7 @@ const ContactHead = () => {
             <h1 className='text-6xl mb-[2rem] font-bold'>
             Contact Us 
             </h1>
-            <p className='text-normal  font-medium text-slate-500 '>
+            <p className='text-normal  font-medium text-slate-500 text-center '>
             Please reach out to us if you have questions about our enterprise offerings, or anything else.
             </p>
         </div>

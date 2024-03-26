@@ -41,7 +41,7 @@ function Contact() {
           {/* <h1 className="text-white text-5xl ">Contact Us</h1> */}
           <div className="overflow-hidden lg:px-[120px] ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px]">
-              <div className="px-[6rem] mr-2 bg-primary sm:rounded-lg ">
+              <div className="p-6 mr-2 bg-primary sm:rounded-lg ">
                 <div>
                   <h1 className="text-3xl sm:text-4xl  font-extrabold tracking-tight">
                     Technical Support
@@ -72,7 +72,7 @@ function Contact() {
               </div>
 
               <form
-                className=" flex flex-col justify-center color rounded-lg p-[1rem] "
+                className=" flex flex-col justify-center color rounded-lg p-[0.75rem] "
                 ref={form}
                 onSubmit={sendEmail}
               >
@@ -90,7 +90,7 @@ function Contact() {
                       onChange={(e) => setName(e.target.value)}
                     />
                   </div>
-                  <div className="flex flex-col w-[47%]">
+                  <div className="flex flex-col w-[45%]">
                     <label for="name" className="text-slate-500 font-bold">
                       Last Name *
                     </label>
@@ -155,7 +155,7 @@ function Contact() {
                     name="message"
                     id="message"
                     cols="0"
-                    rows="8"
+                    rows="5"
                     // placeholder="Enter your Subject"
                     className="w-100 mt-2 py-3 px-3 rounded-lg   text-gray-800 font-semibold  colorInput "
                   ></textarea>
