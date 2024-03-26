@@ -4,13 +4,14 @@ import {
   Business,
   CTA,
   CardDeal,
-  // Services,
   Footer,
   Hero,
   Navbar,
+  ServicesCarousel,
   Stats,
   Testimonials,
 } from "../components";
+
 import styles from "../style.js";
 const HomePage = () => {
   return (
@@ -32,9 +33,9 @@ const HomePage = () => {
           <Stats />
           <Business />
           <Billing />
+          <ServicesCarousel />
           <CardDeal />
           <Testimonials />
-          {/* <Services /> */}
           <CTA />
           <Footer />
         </div>

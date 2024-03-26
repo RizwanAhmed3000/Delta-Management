@@ -5,10 +5,10 @@ import {
     Typography,
     Button,
   } from "@material-tailwind/react";
-   
+   import styles from "../style";
   export default function ExtraCard ({data}) {
     return (
-      <Card className="w-full max-w-[48rem] flex-row text-white">
+      <Card className="w-full max-w-[48rem] lg:flex-row flex-col text-white mb-[2rem] mt-[2rem]">
         <CardHeader
           shadow={false}
           floated={false}
@@ -17,25 +17,23 @@ import {
           <img
             src={data?.imgUrl}
             alt="card-image"
-            className="h-full w-full object-cover"
+            className="h-full w-[500px] object-cover "
+            // width={'100%'}
           />
         </CardHeader>
         <CardBody>
           <Typography variant="h6" color="gray" className="mb-4 uppercase">
            {data?.heading}
           </Typography>
-          <Typography variant="h4" color="blue-gray" className="mb-2">
-            Lyft launching cross-platform service this week
-          </Typography>
+         
           <Typography color="gray" className="mb-8 font-normal">
-            Like so many organizations these days, Autodesk is a company in
-            transition. It was until recently a traditional boxed software company
-            selling licenses. Yet its own business model disruption is only part
-            of the story
+            {data?.content}
           </Typography>
           <a href="#" className="inline-block">
-            <Button variant="text" className="flex items-center gap-2">
-              Learn More
+            <Button variant="text" className={`py-2 mt-2 bg-blue-gradient flex items-center gap-2  
+            font-poppins font-medium text-[18px] text-primary outline-none rounded-[12px] ${styles}`}>
+            
+            {data?.btnContent}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

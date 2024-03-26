@@ -1,5 +1,23 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
+export const ourTeam = [
+  {id : '0',
+  imgUrl : 'https://docs.material-tailwind.com/img/team-3.jpg',
+    position : 'CEO / Co-Founder',
+    name : 'Natalie Paisley'
+  },
+  {id : '1',
+  imgUrl : 'https://docs.material-tailwind.com/img/team-3.jpg',
+    position : 'CEO / Co-Founder',
+    name : 'Natalie Paisley'
+  },
+  {id : '2',
+  imgUrl : 'https://docs.material-tailwind.com/img/team-3.jpg',
+    position : 'CEO / Co-Founder',
+    name : 'Natalie Paisley'
+  },
+]
+
 export const imageData = [
   {img: 'https://block.codescandy.com/assets/images/about-img/about-img-3.jpg', id: '1'},
   {img: 'https://block.codescandy.com/assets/images/about-img/about-img-1.jpg', id: '0'},
@@ -122,64 +140,79 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Services",
     links: [
       {
-        name: "Content",
+        name: "Business Consulting",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Web Development",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Digital Marketing",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Content Creation",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "Project Management",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "About Us",
     links: [
       {
-        name: "Help Center",
+        name: "Client Testimonials",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Blog",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Careers",
         link: "https://www.hoobank.com/suggestions/",
       },
+      
+    ],
+  },
+  
+  {
+    title: "Headquarters",
+    links: [
       {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        name: "Delta Business Solutions",
+        link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "511 Laredo Ln, Chanhassen, MN 55317",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "Country",
+        link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Contact Us",
     links: [
       {
-        name: "Our Partner",
+        name: "Client Testimonials",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Request a Quote",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+      {
+        name: "FAQ",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
