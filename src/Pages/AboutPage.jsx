@@ -1,11 +1,12 @@
 import React from "react";
-import { ContactHead, Footer, Navbar, AboutCard, ExtraCard } from "../components";
+import { ContactHead, Footer, Navbar, AboutCard, ExtraCard, OurTeam } from "../components";
 import styles from "../style";
 import { data } from "../constants/index";
 import { imageData } from "../constants/index";
+import {ourTeam} from '../constants/index'
 // console.log(imageData);
 const AboutPage = () => {
-  console.log(data);
+  // console.log(data);
   return (
     <div>
       <div className="bg-primary  w-full overflow-hidden min-h-[100vh] ">
@@ -29,9 +30,20 @@ const AboutPage = () => {
             ))}
           </div>
         </div>
+        <div className="text-white text-3xl font-bold  text-center mt-[3rem]">
+          Our Value
+        </div>
+        <div className="flex flex-col items-center justify-center mb-[2rem]">
         {data.map((data) => (
           <ExtraCard data={data} key={data?.id}/>
         ))}
+        </div>
+
+        <div className="flex flex-wrap justify-around">
+          {ourTeam.map((data) => (
+            <OurTeam data={data} key={data?.id}/>
+          ))}
+        </div>
 
         <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>

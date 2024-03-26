@@ -11,6 +11,7 @@ import {
   Stats,
   Testimonials,
 } from "../components";
+
 import styles from "../style.js";
 const HomePage = () => {
   return (
