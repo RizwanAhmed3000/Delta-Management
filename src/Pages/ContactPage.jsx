@@ -16,7 +16,7 @@ const ContactPage = () => {
       // ${styles.flexCenter}`
         className={`bg-primary text-white ${styles.paddingX} `}
       >
-      <ContactHead />
+      <ContactHead text='Please reach out to us if you have questions about our enterprise offerings, or anything else.' heading='Contact Us'/>
         <Contact />
       </div>
 
