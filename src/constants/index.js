@@ -55,7 +55,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Working with Delta Business Solution was a game-changer for our company. Their team's expertise and dedication helped us streamline our processes and achieve significant growth. Highly recommend!",
     name: "Herman Jensen",
     title: "Founder & Leader",
     img: people01,
@@ -63,7 +63,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Delta Business Solution exceeded our expectations with their professionalism and attention to detail. From start to finish, they guided us through the project with clear communication and exceptional service. 5 stars!",
     name: "Steve Mark",
     title: "Founder & Leader",
     img: people02,
@@ -71,7 +71,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "I couldn't be happier with the results Delta Business Solution delivered. Their innovative solutions and strategic approach transformed our business for the better. Thank you for your outstanding work!",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
