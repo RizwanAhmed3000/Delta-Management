@@ -9,11 +9,12 @@ function Contact() {
   const [email, setEmail] = useState("");
   const [number, setNumber] = useState("");
   const [name, setName] = useState("");
+  const [company, setCompany] = useState("");
   const [message, setMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
-    if (email === "" || number === "" || name === "" || message === "") {
+    if (email === "" || number === "" || name === "" || message === "" || company === "") {
       return toast.error("Missings Fields");
     } else {
       console.log("send");
@@ -127,7 +128,7 @@ function Contact() {
                     id="companyName"
                     // placeholder="Email"
                     className="w-100 mt-2 py-3 px-3 rounded-lg   text-gray-800 font-semibold  colorInput"
-                    onChange={(e) => setEmail(e.target.value)}
+                    onChange={(e) => setCompany(e.target.value)}
                   />
                 </div>
 
